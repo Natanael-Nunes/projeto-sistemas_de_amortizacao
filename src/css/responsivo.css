@@ -1,0 +1,76 @@
+@media (max-width: 1200px) {
+    body {
+        background-color: #f44336;
+    }
+
+    .fundo {
+        display: none;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 30px;
+    }
+
+    .container .animacao {
+        max-width: 50%;
+    }
+
+    .container .informacoes {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .container .botao {
+        background-color: #263238;
+    }
+
+    .imagem-rodape {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .introducao {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .imagem-nome {
+        max-width: 90%;
+    }
+
+    .modal .fechar-modal {
+        width: 30px;
+        line-height: 30px;
+    }
+
+    .modal #video-apresentacao {
+        width: 300px;
+        height: 169px;
+    }
+
+    .imagem-rodape {
+        flex-wrap: wrap;
+    }
+
+    .imagem-rodape {
+        display: none;
+    }
+}
+
+@media (max-width: 376px) {
+    .modal #video-apresentacao {
+        width: 250px;
+        height: 140px;
+    }
+}
